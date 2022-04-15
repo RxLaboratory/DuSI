@@ -1,0 +1,12 @@
+var scriptName = "DuSI";
+var scriptVersion = "1.0.0";
+var scriptAbout = 'Collect system information.';
+var companyName = "RxLaboratory";
+
+var chatURL = 'http://chat.rxlab.info';
+var bugReportURL = '';
+var featureRequestURL = '';
+var aboutURL = '/';
+var docURL = '';
+var companyURL = 'https://rxlaboratory.org';
+var rxVersionURL = 'http://version.rxlab.io';
