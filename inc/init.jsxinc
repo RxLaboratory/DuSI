@@ -1,7 +1,7 @@
 function init()
 {
     // This is required
-    DuESF.init( scriptName, scriptVersion, companyName);
+    DuESF.init( DuESF.HostApplication.AFTER_EFFECTS, scriptName, scriptVersion, companyName);
 
     // Setting these may prove useful
     DuESF.chatURL = chatURL;

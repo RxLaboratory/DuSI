@@ -4,8 +4,8 @@ function main() {
     var saveFile = File.saveDialog("Save system info to...", "Text file: *.txt");
 
     var sysInfo = [ '[OS]',
-        'OS:' + DuSystem.mac ? 'Mac' : 'Win',
-        'Version:' + DuSystem.osVersion,
+        'OS:' + $.os,
+        'Filesystem:' + Folder.fs,
         '[Host]',
         'Host:' + DuESF.host,
         'HostVersion:' + DuESF.hostVersion.fullVersion,
@@ -15,11 +15,18 @@ function main() {
         'commonFiles:' + Folder.commonFiles.fsName,
         'current:' + Folder.current.fsName,
         'desktop:' + Folder.desktop.fsName,
-        'fs:' + Folder.fs.fsName,
         'myDocuments:' + Folder.myDocuments.fsName,
         'startup:' + Folder.startup.fsName,
         'system:' + Folder.system.fsName,
         'temp:' + Folder.temp.fsName,
-        'trash:' + Folder.trash.fsName,
-        'userData:' + Folder.userData.fsName,
+        'userData:' + Folder.userData.fsName//*/
+    ].join('\n');
+
+    if (saveFile.open('w')) {
+        saveFile.write(sysInfo);
+    }
+    else {
+        alert("Sorry, I can't create the system info file. Here's the collected data: \n\n" + sysInfo);
+    }
+
 }
