@@ -70,7 +70,11 @@ function main() {
         'userData:' + checkAccess(userData),
         '\n[DuESF Folders]',
         'DuFolder.userData:' + checkAccess(duesfUserData),
-        'DuFolder.duesfData:' + checkAccess(duesfData)
+        'DuFolder.duesfData:' + checkAccess(duesfData),
+        'DuESF.settings:' + checkAccess(DuESF.settings.file.parent.fsName),
+        'DuESF.settings.file:' + DuESF.settings.file.fsName,
+        'DuESF.scriptSettings:' + checkAccess(DuESF.scriptSettings.file.parent.fsName),
+        'DuESF.scriptSettings.file:' + DuESF.scriptSettings.file.fsName,
     ].join('\n');
 
     if (saveFile.open('w')) {
