@@ -1,5 +1,5 @@
 var scriptName = "DuSI";
-var scriptVersion = "1.1.0";
+var scriptVersion = "1.2.0";
 var scriptAbout = 'Collect system information.';
 var companyName = "RxLaboratory";
 
