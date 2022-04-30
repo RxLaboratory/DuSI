@@ -1,0 +1,10 @@
+mkdir output
+mkdir "output\DuSI"
+mkdir "output\DuSI\ScriptUI Panels"
+DuBuilder "..\DuSI.jsx" -nobanner "output\DuSI\ScriptUI Panels\DuSI.jsx"
+echo " " > "output\DuSI\LICENSE.md"
+echo " " > "output\DuSI\LICENSE.txt"
+echo " " > "output\DuSI\README.txt"
+xcopy /Y items\LICENSE.md "output\DuSI\LICENSE.md"
+xcopy /Y items\LICENSE.txt "output\DuSI\LICENSE.txt"
+xcopy /Y items\README.txt "output\DuSI\README.txt"
