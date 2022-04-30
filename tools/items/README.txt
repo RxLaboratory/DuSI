@@ -18,4 +18,4 @@ This script can also be used to fix/uninstall other scripts developped by RxLabo
 ## How to use DuSI
 
 Although DuSI can be installed permanently if you wish, by copying DuSI.jsx to an After Effects ScriptUI Panel for example,
-if you just need to run it once, you can just use the "File/Scripts/Run Script" meny entry.
+if you just need to run it once, you can just use the "File/Scripts/Run Script" menu entry.
