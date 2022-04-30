@@ -2,8 +2,4 @@
 
 #include "setup.jsxinc"
 
-#include "../DuESF/DuESF.jsxinc"
-
-#include "init.jsxinc"
-
 #include "main.jsxinc"
