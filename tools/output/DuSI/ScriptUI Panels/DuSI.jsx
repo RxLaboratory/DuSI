@@ -1,3 +1,64 @@
+// ==================== |------| ====================
+// ==================== | DuSI | ====================
+// ==================== |------| ====================
+
+(function(thisObj) {
+
+// ==================== |------| ====================
+// ==================== | core | ====================
+// ==================== |------| ====================
+
+// ==================== |---------| ====================
+// ==================== | license | ====================
+// ==================== |---------| ====================
+
+/* License
+	DuSI - Adobe System Info
+
+    This program uses DuESF, the Duduf ExtendScript Framework.
+
+	Copyright (c) 2022 Nicolas Dufresne and contributors
+
+	This file is part of DuSI.
+
+		This program is free software: you can redistribute it and/or modify
+		it under the terms of the GNU General Public License as published by
+		the Free Software Foundation, either version 3 of the License, or
+		(at your option) any later version.
+
+		This program is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+		GNU General Public License for more details.
+
+		You should have received a copy of the GNU General Public License
+		along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+*/
+// ==================== |-------| ====================
+// ==================== | setup | ====================
+// ==================== |-------| ====================
+
+// ==================== |---------| ====================
+// ==================== | version | ====================
+// ==================== |---------| ====================
+
+var scriptName = "DuSI";
+var scriptVersion = "1.4.0";
+var scriptAbout = 'Collect system information.';
+var companyName = "RxLaboratory";
+
+var chatURL = 'http://chat.rxlab.info';
+var bugReportURL = '';
+var featureRequestURL = '';
+var aboutURL = '/';
+var docURL = '';
+var companyURL = 'https://rxlaboratory.org';
+var rxVersionURL = 'http://api.rxlab.io';
+// ==================== |------| ====================
+// ==================== | main | ====================
+// ==================== |------| ====================
+
 // FUNCTIONS
 
 function getFolder(f) {
@@ -407,3 +468,5 @@ if ( win instanceof Window )
     //ui.center();
     win.show();
 }
+
+})(this);

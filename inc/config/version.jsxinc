@@ -1,5 +1,5 @@
 var scriptName = "DuSI";
-var scriptVersion = "1.3.0";
+var scriptVersion = "1.4.0";
 var scriptAbout = 'Collect system information.';
 var companyName = "RxLaboratory";
 
@@ -9,4 +9,4 @@ var featureRequestURL = '';
 var aboutURL = '/';
 var docURL = '';
 var companyURL = 'https://rxlaboratory.org';
-var rxVersionURL = 'http://version.rxlab.io';
+var rxVersionURL = 'http://api.rxlab.io';
