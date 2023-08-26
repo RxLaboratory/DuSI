@@ -1,0 +1,24 @@
+{
+    "title": "DuSI",
+    "hosts": [
+        {
+            "name": "aftereffects",
+            "title": "After Effects"
+        }
+    ],
+    "os": [
+        {
+            "name": "win",
+            "title": "Windows"
+        },
+        {
+            "name": "mac",
+            "title": "macOS"
+        }
+    ],
+    "userGuide": "",
+    "apiReference": "",
+    "website": "https://rxlaboratory.org/tools/dusi/",
+    "description": "Collect System Info from Adobe apps.",
+    "tutorials": ""
+}
